@@ -252,7 +252,7 @@ Beta testers get the app for free.
 
 ## Privacy
 
-KyberVault collects **zero data**. No accounts, no analytics, no network calls. Everything stays on your device. [Full privacy policy](https://darkstar2-4.github.io/KyberVault/privacy-policy.html).
+KyberVault collects **zero data**. No accounts, no analytics, no network calls. Everything stays on your device. [Full privacy policy](https://darkstar2-4.github.io/KyberVault/Privacy-Policy.html).
 
 ---
 
