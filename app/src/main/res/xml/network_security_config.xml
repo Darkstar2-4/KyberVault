@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deny all network traffic. This app is airgapped by design. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Empty: trust nothing, connect to nothing -->
+        </trust-anchors>
+    </base-config>
+</network-security-config>

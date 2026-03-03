@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/captures
+local.properties
+/.idea/
+/build/
+/app/build/
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+google-services.json

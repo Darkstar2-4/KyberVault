@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KyberVault — Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0e17;
+            --surface: #111827;
+            --surface-alt: #1a2236;
+            --border: #1e293b;
+            --text: #e2e8f0;
+            --text-dim: #94a3b8;
+            --accent: #7c3aed;
+            --accent-glow: rgba(124, 58, 237, 0.15);
+            --green: #10b981;
+            --red: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .noise {
+            position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        }
+
+        .glow-orb {
+            position: fixed; width: 600px; height: 600px; border-radius: 50%;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+            top: -200px; right: -200px; z-index: 0; pointer-events: none;
+            animation: drift 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-80px, 60px); }
+        }
+
+        .container {
+            position: relative; z-index: 1;
+            max-width: 720px; margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        header {
+            text-align: center; margin-bottom: 56px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            display: inline-flex; align-items: center; gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            border-radius: 10px; display: flex; align-items: center; justify-content: center;
+            font-size: 20px; box-shadow: 0 0 24px var(--accent-glow);
+        }
+
+        .logo-text {
+            font-size: 28px; font-weight: 700; letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #e2e8f0, #a78bfa);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        header h1 {
+            font-size: 22px; font-weight: 300; color: var(--text-dim);
+            letter-spacing: 0.5px;
+        }
+
+        .effective {
+            display: inline-block; margin-top: 12px; padding: 4px 14px;
+            background: var(--surface-alt); border-radius: 20px;
+            font-family: 'JetBrains Mono', monospace; font-size: 12px;
+            color: var(--text-dim); border: 1px solid var(--border);
+        }
+
+        .tldr {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--green);
+            border-radius: 8px; padding: 20px 24px;
+            margin-bottom: 48px;
+        }
+
+        .tldr-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px; font-weight: 600; letter-spacing: 2px;
+            color: var(--green); text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .tldr p { color: var(--text-dim); font-size: 15px; }
+
+        section { margin-bottom: 40px; }
+
+        h2 {
+            font-size: 18px; font-weight: 600; margin-bottom: 14px;
+            padding-bottom: 8px; border-bottom: 1px solid var(--border);
+            color: var(--text); display: flex; align-items: center; gap: 10px;
+        }
+
+        h2 .num {
+            font-family: 'JetBrains Mono', monospace; font-size: 12px;
+            color: var(--accent); background: var(--accent-glow);
+            padding: 2px 8px; border-radius: 4px;
+        }
+
+        p { margin-bottom: 12px; color: var(--text-dim); font-size: 15px; }
+        p:last-child { margin-bottom: 0; }
+
+        .highlight {
+            color: var(--text); font-weight: 600;
+        }
+
+        .badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 3px 10px; border-radius: 4px; font-size: 13px;
+            font-family: 'JetBrains Mono', monospace; font-weight: 600;
+        }
+
+        .badge-green { background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.2); }
+        .badge-red { background: rgba(239,68,68,0.1); color: var(--red); border: 1px solid rgba(239,68,68,0.2); }
+
+        .grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+            margin-top: 14px;
+        }
+
+        .grid-item {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 6px; padding: 14px;
+        }
+
+        .grid-item .label {
+            font-family: 'JetBrains Mono', monospace; font-size: 11px;
+            color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .grid-item .value { font-size: 14px; color: var(--text); font-weight: 600; }
+
+        footer {
+            margin-top: 60px; padding-top: 32px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        footer p { font-size: 13px; color: var(--text-dim); }
+
+        footer a {
+            color: var(--accent); text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        footer a:hover { border-bottom-color: var(--accent); }
+
+        @media (max-width: 500px) {
+            .container { padding: 40px 16px 60px; }
+            .grid { grid-template-columns: 1fr; }
+            .logo-text { font-size: 24px; }
+            header h1 { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="glow-orb"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">🔐</div>
+                <span class="logo-text">KyberVault</span>
+            </div>
+            <h1>Privacy Policy</h1>
+            <span class="effective">Effective: February 27, 2026</span>
+        </header>
+
+        <div class="tldr">
+            <div class="tldr-label">TL;DR</div>
+            <p>KyberVault collects <span class="highlight">zero data</span>. No accounts, no analytics, no network calls. Everything stays on your device. We couldn't access your data even if we wanted to.</p>
+        </div>
+
+        <section>
+            <h2><span class="num">01</span> Overview</h2>
+            <p>KyberVault is a post-quantum cryptographic toolkit for Android. It generates, stores, and manages Kyber-1024 and X25519 key pairs, performs hybrid encryption, and facilitates secure key exchange — all entirely on-device.</p>
+            <p>This policy applies to the KyberVault Android application distributed via Google Play and GitHub.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">02</span> Data We Collect</h2>
+            <p><span class="badge badge-green">✓ None</span></p>
+            <p>KyberVault does not collect, transmit, or store any personal data on external servers. The application has <span class="highlight">no network permissions</span>, makes zero HTTP requests, and contains no analytics SDKs, crash reporters, advertising libraries, or telemetry of any kind.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">03</span> Data Stored On-Device</h2>
+            <p>All data remains exclusively on your device under Android's app sandbox:</p>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="label">Cryptographic Keys</div>
+                    <div class="value">RAM-only by default</div>
+                </div>
+                <div class="grid-item">
+                    <div class="label">Persisted Keys</div>
+                    <div class="value">AES-256-GCM via Android Keystore</div>
+                </div>
+                <div class="grid-item">
+                    <div class="label">PIN Hash</div>
+                    <div class="value">SHA-256, local SharedPreferences</div>
+                </div>
+                <div class="grid-item">
+                    <div class="label">TOTP Secret</div>
+                    <div class="value">Base64, local SharedPreferences</div>
+                </div>
+            </div>
+            <p style="margin-top: 14px;">You can destroy all persisted data at any time using the in-app wipe functions. Uninstalling the app removes everything.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">04</span> Biometric Data</h2>
+            <p>KyberVault uses the Android BiometricPrompt API for optional fingerprint authentication. Biometric data is processed entirely by the Android operating system. <span class="highlight">KyberVault never accesses, stores, or transmits biometric data.</span></p>
+        </section>
+
+        <section>
+            <h2><span class="num">05</span> Network & Permissions</h2>
+            <p><span class="badge badge-red">✗ No internet permission</span></p>
+            <p>The app declares no INTERNET permission in its manifest. It cannot communicate with any server, API, or external service. This is verifiable by inspecting the APK or the open-source code.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">06</span> Third-Party Services</h2>
+            <p><span class="badge badge-green">✓ None</span></p>
+            <p>KyberVault integrates no third-party services: no Google Analytics, Firebase, AdMob, crash reporting, A/B testing, or any SDK that communicates externally. The only external libraries used are Bouncy Castle (cryptography) and ZXing (QR code generation), both of which operate entirely offline.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">07</span> Backups & Data Transfer</h2>
+            <p>Cloud backup and device-to-device transfer are <span class="highlight">explicitly disabled</span> in the app manifest. Key material will not appear in Google Drive backups, Android Auto Backup, or device migration tools.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">08</span> Children's Privacy</h2>
+            <p>KyberVault is not directed at children under 13. Since we collect no data whatsoever, no children's data is collected, stored, or processed.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">09</span> Open Source</h2>
+            <p>KyberVault is open source. Every claim in this policy is verifiable by inspecting the source code, build configuration, and Android manifest.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">10</span> Changes to This Policy</h2>
+            <p>Any changes will be posted on this page with an updated effective date. Since we collect no data, meaningful changes are unlikely.</p>
+        </section>
+
+        <section>
+            <h2><span class="num">11</span> Contact</h2>
+            <p>Questions or concerns about this policy can be directed to the project's GitHub repository.</p>
+        </section>
+
+        <footer>
+            <p>KyberVault is open-source software by <a href="https://github.com/Darkstar2-4/KyberVault/" target="_blank" rel="noopener">Darkstar2-4</a></p>
+            <p style="margin-top: 8px;">Post-quantum cryptography for everyone.</p>
+        </footer>
+    </div>
+</body>
+</html>
