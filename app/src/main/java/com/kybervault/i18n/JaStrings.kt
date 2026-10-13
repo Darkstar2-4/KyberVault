@@ -136,9 +136,6 @@ val JaStrings = AppStrings(
     keySizesInfo = "公開: 1,568 バイト \u2022 秘密: 3,168 バイト\n暗号文: 1,568 バイト \u2022 シークレット: 32 バイト\nセキュリティ: \u2265256ビット古典、\u2265230ビット量子",
     clipboardSafety = "クリップボードの安全性",
     clipboardSafetyInfo = "Androidのクリップボードは安全ではありません。Samsung Keyboardなど他のキーボードは独自にキャッシュします。プログラムによる消去は信頼できません。\n\n可能な限りQRコードまたは共有（ファイル転送）を使用してください。コピーする場合は、システムとキーボードの設定でクリップボード履歴を無効にし、貼り付け後にキーボードキャッシュを消去してください。",
-    supportDevelopment = "開発を支援する",
-    supportDescription = "KyberVaultは無料、オープンソースで広告・追跡機能はありません。お役に立てば支援いただけると嬉しいです。",
-    btcLabel = "BTC",
     freeOpenSource = "無料、オープンソース、広告なし、追跡なし。",
 
     // Wipe

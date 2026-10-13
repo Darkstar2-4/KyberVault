@@ -136,9 +136,6 @@ val FrStrings = AppStrings(
     keySizesInfo = "Publique : 1 568 octets \u2022 Privée : 3 168 octets\nTexte chiffré : 1 568 octets \u2022 Secret : 32 octets\nSécurité : \u2265256 bits classiques, \u2265230 bits quantiques",
     clipboardSafety = "Sécurité du presse-papiers",
     clipboardSafetyInfo = "Le presse-papiers Android n'est pas sécurisé. Le clavier Samsung et d'autres claviers mettent le presse-papiers en cache indépendamment. Le vidage programmatique ne fonctionne pas de manière fiable.\n\nPréférez les codes QR ou la fonction Partager (transfert de fichier) au presse-papiers. Si vous devez copier, désactivez l'historique du presse-papiers dans les paramètres système et du clavier, et videz le cache de votre clavier après collage.",
-    supportDevelopment = "Soutenir le développement",
-    supportDescription = "KyberVault est gratuit, open-source et ne contient ni publicité ni traçage. Si l'application vous est utile, votre soutien est apprécié.",
-    btcLabel = "BTC",
     freeOpenSource = "Gratuit, open-source, sans pubs, sans traçage.",
 
     // Wipe

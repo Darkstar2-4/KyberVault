@@ -136,9 +136,6 @@ val PlStrings = AppStrings(
     keySizesInfo = "Publiczny: 1 568 bajtów \u2022 Prywatny: 3 168 bajtów\nSzyfrogram: 1 568 bajtów \u2022 Sekret: 32 bajty\nBezpieczeństwo: \u2265256-bit klasyczne, \u2265230-bit kwantowe",
     clipboardSafety = "Bezpieczeństwo schowka",
     clipboardSafetyInfo = "Schowek Androida nie jest bezpieczny. Klawiatury Samsung i inne niezależnie go buforują. Programowe czyszczenie nie działa niezawodnie.\n\nZalecane są kody QR lub funkcja Udostępnij (przesyłanie pliku) zamiast schowka. Jeśli musisz kopiować, wyłącz historię schowka w ustawieniach systemu i klawiatury, a po wklejeniu wyczyść pamięć podręczną klawiatury.",
-    supportDevelopment = "Wesprzyj rozwój",
-    supportDescription = "KyberVault jest darmowy, open-source i nie zawiera reklam ani śledzenia. Jeśli pomaga Ci, wsparcie będzie mile widziane.",
-    btcLabel = "BTC",
     freeOpenSource = "Darmowy, open-source, bez reklam, bez śledzenia.",
 
     // Wipe

@@ -136,9 +136,6 @@ val KoStrings = AppStrings(
     keySizesInfo = "공개: 1,568 바이트 \u2022 비밀: 3,168 바이트\n암호문: 1,568 바이트 \u2022 비밀: 32 바이트\n보안: \u2265256비트 클래식, \u2265230비트 양자",
     clipboardSafety = "클립보드 안전성",
     clipboardSafetyInfo = "Android 클립보드는 안전하지 않습니다. Samsung Keyboard 등 다른 키보드가 독립적으로 캐시합니다. 프로그램 방식 지우기는 신뢰할 수 없습니다.\n\n가능한 한 QR 코드나 공유(파일 전송)를 사용하세요. 복사해야 한다면 시스템 및 키보드 설정에서 클립보드 기록을 비활성화하고 붙여넣기 후 키보드 캐시를 지우세요.",
-    supportDevelopment = "개발 지원하기",
-    supportDescription = "KyberVault는 무료, 오픈소스이며 광고나 추적 기능이 없습니다. 도움이 된다면 지원 부탁드립니다.",
-    btcLabel = "BTC",
     freeOpenSource = "무료, 오픈소스, 광고 없음, 추적 없음.",
 
     // Wipe

@@ -256,14 +256,6 @@ KyberVault collects **zero data**. No accounts, no analytics, no network calls. 
 
 ---
 
-## Support Development
-
-KyberVault is free and open source. If you find it useful:
-
-**BTC**: `bc1q28sq3z2z9mzyesey0023e9240tv48cyv8vw2v2`
-
----
-
 ## License
 
 Open source. Cryptographic software may be subject to export controls in your jurisdiction.

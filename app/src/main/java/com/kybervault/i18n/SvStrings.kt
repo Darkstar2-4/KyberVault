@@ -136,9 +136,6 @@ val SvStrings = AppStrings(
     keySizesInfo = "Offentlig: 1 568 byte \u2022 Privat: 3 168 byte\nChiffertext: 1 568 byte \u2022 Hemlighet: 32 byte\nSäkerhet: \u2265256-bit klassisk, \u2265230-bit kvant",
     clipboardSafety = "Urklippssäkerhet",
     clipboardSafetyInfo = "Androids urklipp är inte säkert. Samsung Keyboard och andra tangentbord cachar det oberoende. Programmatisk rensning fungerar inte pålitligt.\n\nFöredra QR-koder eller Dela (filöverföring) framför urklipp. Om du måste kopiera, stäng av urklippshistorik i system- och tangentbordsinställningar och rensa tangentbordscache efter inklistring.",
-    supportDevelopment = "Stöd utvecklingen",
-    supportDescription = "KyberVault är gratis, öppen källkod och innehåller inga annonser eller spårning. Om den hjälper dig uppskattas stöd.",
-    btcLabel = "BTC",
     freeOpenSource = "Gratis, öppen källkod, inga annonser, ingen spårning.",
 
     // Wipe

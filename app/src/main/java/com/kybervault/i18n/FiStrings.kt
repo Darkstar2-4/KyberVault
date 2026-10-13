@@ -136,9 +136,6 @@ val FiStrings = AppStrings(
     keySizesInfo = "Julkinen: 1 568 tavua \u2022 Yksityinen: 3 168 tavua\nSalausteksti: 1 568 tavua \u2022 Salaisuus: 32 tavua\nTurvallisuus: \u2265256-bittinen klassinen, \u2265230-bittinen kvanttinen",
     clipboardSafety = "Leikepöydän turvallisuus",
     clipboardSafetyInfo = "Androidin leikepöytä ei ole turvallinen. Samsung Keyboard ja muut näppäimistöt tallentavat sen itsenäisesti. Ohjelmallinen tyhjennys ei toimi luotettavasti.\n\nKäytä mieluiten QR-koodeja tai Jaa-toimintoa (tiedostonsiirto) leikepöydän sijaan. Jos kopioit, poista leikepöydän historia käytöstä järjestelmän ja näppäimistön asetuksista ja tyhjennä näppäimistön välimuisti liittämisen jälkeen.",
-    supportDevelopment = "Tue kehitystä",
-    supportDescription = "KyberVault on ilmainen, avoimen lähdekoodin ohjelma ilman mainoksia tai seurantaa. Jos se auttaa sinua, tuki on tervetullutta.",
-    btcLabel = "BTC",
     freeOpenSource = "Ilmainen, avoimen lähdekoodin, ilman mainoksia, ilman seurantaa.",
 
     // Wipe

@@ -138,9 +138,6 @@ data class AppStrings(
     val keySizesInfo: String,
     val clipboardSafety: String,
     val clipboardSafetyInfo: String,
-    val supportDevelopment: String,
-    val supportDescription: String,
-    val btcLabel: String,
     val freeOpenSource: String,
 
     // ── Wipe Dialog ──

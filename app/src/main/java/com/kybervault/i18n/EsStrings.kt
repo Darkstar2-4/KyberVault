@@ -136,9 +136,6 @@ val EsStrings = AppStrings(
     keySizesInfo = "P\u00fablica: 1.568 bytes \u2022 Privada: 3.168 bytes\nTexto cifrado: 1.568 bytes \u2022 Secreto: 32 bytes\nSeguridad: \u2265256 bits cl\u00e1sica, \u2265230 bits cu\u00e1ntica",
     clipboardSafety = "Seguridad del Portapapeles",
     clipboardSafetyInfo = "El portapapeles de Android no es seguro. Samsung Keyboard y otros teclados almacenan el portapapeles independientemente. La limpieza program\u00e1tica no funciona de manera confiable.\n\nPreferir c\u00f3digos QR o Compartir (transferencia de archivos) sobre el portapapeles. Si debes copiar, desactiva el historial del portapapeles en los ajustes del sistema y teclado, y limpia la cach\u00e9 del teclado despu\u00e9s de pegar.",
-    supportDevelopment = "Apoyar el Desarrollo",
-    supportDescription = "KyberVault es gratuito, de c\u00f3digo abierto, y no contiene anuncios ni rastreo. Si te ayuda, tu apoyo es apreciado.",
-    btcLabel = "BTC",
     freeOpenSource = "Gratuito, c\u00f3digo abierto, sin anuncios ni rastreo.",
 
     // Wipe

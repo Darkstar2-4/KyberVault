@@ -136,9 +136,6 @@ val DeStrings = AppStrings(
     keySizesInfo = "Öffentlich: 1.568 Bytes \u2022 Privat: 3.168 Bytes\nChiffretext: 1.568 Bytes \u2022 Geheimnis: 32 Bytes\nSicherheit: \u2265256 Bit klassisch, \u2265230 Bit quantum",
     clipboardSafety = "Clipboard-Sicherheit",
     clipboardSafetyInfo = "Das Android-Clipboard ist nicht sicher. Samsung Keyboard und andere Tastaturen cachen das Clipboard unabhängig. Programmatisches Löschen funktioniert nicht zuverlässig.\n\nBevorzugen Sie QR-Codes oder Teilen (Dateiübertragung) statt Clipboard. Bei Kopieren: Clipboard-Verlauf in System- und Tastatureinstellungen deaktivieren und Tastatur-Cache nach dem Einfügen leeren.",
-    supportDevelopment = "Entwicklung unterstützen",
-    supportDescription = "KyberVault ist kostenlos, Open-Source und enthält keine Werbung oder Tracking. Wenn es Ihnen hilft, freuen wir uns über Unterstützung.",
-    btcLabel = "BTC",
     freeOpenSource = "Kostenlos, open-source, keine Werbung, kein Tracking.",
 
     // Wipe

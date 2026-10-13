@@ -136,9 +136,6 @@ val RnStrings = AppStrings(
     keySizesInfo = "Public: 1,568 bytes \u2022 Private: 3,168 bytes\nCiphertext: 1,568 bytes \u2022 Secret: 32 bytes\nSecurity: \u2265256-bit old-school, \u2265230-bit kwontum",
     clipboardSafety = "Clipboard Safety (watch yerself)",
     clipboardSafetyInfo = "Android clipboard ain’t secure. Samsung Keyboard and other keyboards cache it separate. Programmatic clearin' don’t work worth a dang.\n\nPrefer QR codes or Share (file transfer) over clipboard. If ya gotta copy, turn off clipboard history in system & keyboard settings, and clear yer keyboard cache after pastin'.",
-    supportDevelopment = "Support the Development",
-    supportDescription = "KyberVault is free, open-source, no ads, no trackin'. If it helps ya, a little support is mighty appreciated.",
-    btcLabel = "BTC",
     freeOpenSource = "Free, open-source, no ads, no snoopin'.",
 
     // Wipe

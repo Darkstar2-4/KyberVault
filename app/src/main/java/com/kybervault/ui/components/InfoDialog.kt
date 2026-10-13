@@ -4,15 +4,11 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
@@ -23,7 +19,6 @@ import com.kybervault.i18n.LocalStrings
 @Composable
 fun InfoDialog(onDismiss: () -> Unit) {
     val S = LocalStrings.current
-    val context = LocalContext.current
     val uriHandler = LocalUriHandler.current
 
     AlertDialog(
@@ -47,33 +42,6 @@ fun InfoDialog(onDismiss: () -> Unit) {
                     modifier = Modifier.fillMaxWidth()) {
                     Text("github.com/Darkstar2-4/KyberVault", textDecoration = TextDecoration.Underline,
                         style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.primary)
-                }
-
-                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-
-                Text(S.supportDevelopment, style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.primary)
-
-                Text(S.supportDescription, style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant, lineHeight = 17.sp)
-
-                Surface(color = MaterialTheme.colorScheme.surfaceVariant,
-                    shape = MaterialTheme.shapes.small, modifier = Modifier.fillMaxWidth()) {
-                    Row(modifier = Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Column(modifier = Modifier.weight(1f)) {
-                            Text(S.btcLabel, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold,
-                                color = MaterialTheme.colorScheme.secondary)
-                            Spacer(Modifier.height(2.dp))
-                            Text("bc1q28sq3z2z9mzyesey0023e9240tv48cyv8vw2v2",
-                                style = MaterialTheme.typography.bodySmall.copy(fontSize = 10.sp),
-                                fontFamily = FontFamily.Monospace)
-                        }
-                        IconButton(onClick = { copyPlain(context, "BTC Address", "bc1q28sq3z2z9mzyesey0023e9240tv48cyv8vw2v2", S.copied) },
-                            modifier = Modifier.size(36.dp)) {
-                            Icon(Icons.Filled.ContentCopy, S.copy, Modifier.size(18.dp),
-                                tint = MaterialTheme.colorScheme.secondary)
-                        }
-                    }
                 }
 
                 Text(S.freeOpenSource, style = MaterialTheme.typography.bodySmall,

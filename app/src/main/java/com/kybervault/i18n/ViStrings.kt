@@ -136,9 +136,6 @@ val ViStrings = AppStrings(
     keySizesInfo = "Công khai: 1.568 byte \u2022 Riêng: 3.168 byte\nVăn bản mã hóa: 1.568 byte \u2022 Bí mật: 32 byte\nBảo mật: \u2265256-bit cổ điển, \u2265230-bit lượng tử",
     clipboardSafety = "An Toàn Bảng Nhớ Tạm",
     clipboardSafetyInfo = "Bảng nhớ tạm Android không an toàn. Bàn phím Samsung và các bàn phím khác lưu cache riêng. Xóa bằng chương trình không đáng tin cậy.\n\nƯu tiên mã QR hoặc Chia sẻ (chuyển file) thay vì bảng nhớ tạm. Nếu phải sao chép, tắt lịch sử bảng nhớ tạm trong cài đặt hệ thống và bàn phím, sau đó xóa cache bàn phím sau khi dán.",
-    supportDevelopment = "Hỗ Trợ Phát Triển",
-    supportDescription = "KyberVault miễn phí, mã nguồn mở và không có quảng cáo hoặc theo dõi. Nếu nó giúp bạn, sự hỗ trợ được đánh giá cao.",
-    btcLabel = "BTC",
     freeOpenSource = "Miễn phí, mã nguồn mở, không quảng cáo, không theo dõi.",
 
     // Wipe

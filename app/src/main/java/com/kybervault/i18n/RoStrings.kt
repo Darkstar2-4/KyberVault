@@ -136,9 +136,6 @@ val RoStrings = AppStrings(
     keySizesInfo = "Publică: 1.568 octeți \u2022 Privată: 3.168 octeți\nText cifrat: 1.568 octeți \u2022 Secret: 32 octeți\nSecuritate: \u2265256 biți clasic, \u2265230 biți cuantic",
     clipboardSafety = "Siguranța clipboard-ului",
     clipboardSafetyInfo = "Clipboard-ul Android nu este sigur. Tastatura Samsung și altele îl cachează independent. Ștergerea programatică nu funcționează fiabil.\n\nPreferă codurile QR sau Partajează (transfer fișier) în locul clipboard-ului. Dacă trebuie să copiezi, dezactivează istoricul clipboard-ului în setările sistem și tastatură și șterge cache-ul tastaturii după lipire.",
-    supportDevelopment = "Susține dezvoltarea",
-    supportDescription = "KyberVault este gratuit, open-source și nu conține reclame sau urmărire. Dacă te ajută, susținerea este apreciată.",
-    btcLabel = "BTC",
     freeOpenSource = "Gratuit, open-source, fără reclame, fără urmărire.",
 
     // Wipe
